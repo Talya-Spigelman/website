@@ -1,0 +1,348 @@
+/*פתיחה ifram */
+.ifram {
+  display: grid;
+  /* שיסדר אותם כמו טבלה*/
+  grid-template-columns: auto, auto, auto;
+  /* מס' עמודות*/
+}
+
+/*div מגדיר מאפיינים של הקישורים ב */
+.homeLink {
+  padding: 5%;
+  margin: 1%;
+  background-color: rgb(238, 174, 115);
+}
+
+/*  מגדיר מאפיינים של הקישורים עצמם */
+.homePageLink {
+  text-decoration: none;
+  /* בלי קו תחתון*/
+  font-weight: 500;
+  /* הדגשת הכתב*/
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  color: black;
+  font-size: 360%;
+  text-align: center;
+  padding-right: 30%;
+}
+
+/* סיום ifram */
+/*דף הבית פתיחה*/
+
+/* iframe מגדיר מאפיינים של */
+.bigifram {
+  height: 110vh;
+  width: 100%;
+  border: none;
+}
+
+/* footer מגדיר מאפיינים של */
+.footer {
+  height: 65vh;
+  background-color: rgb(241, 150, 65);
+}
+
+.conaction {
+  font-size: xx-large;
+  font-weight: bold;
+  margin-right: 7%;
+}
+
+/*מס טלפון +תמונת אייקון */
+.tel {
+  width: 5%;
+}
+
+.divTel {
+  margin-right: 10%;
+}
+
+.tel1 {
+  font-size: 100%;
+  margin-right: 8%;
+}
+
+/*מייל +תמונת אייקון */
+.mail {
+  width: 5%;
+}
+
+.divMail {
+  margin-right: 10%;
+}
+
+.mail1 {
+  font-size: 100%;
+  margin-right: 6%;
+}
+
+/*FOOTER הגדרת מאפייני תמונת הלוגו ב */
+.divLogo {
+  margin-top: -15%;
+}
+
+.logo {
+  width: 40%;
+  margin-right: 30%;
+}
+
+/* מגדיר מאפיינים לכל הזכויות שמורות */
+.save {
+  text-align: center;
+  font-size: xx-large;
+}
+
+/*דף הבית סיום*/
+/*הרשמה  פתיחה*/
+
+/*הרשמה טופס*/
+.signIn {
+  margin-left: 35%;
+  margin-right: 35%;
+  width: 30%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  background-color: rgb(241, 150, 65);
+  border: none;
+  /* בלי מסגרת*/
+  border-radius: 15%;
+  /*מעגל פינות*/
+}
+
+/*כותרת טופס*/
+.signtitle {
+  font-size: xx-large larger larger;
+  margin-right: 30%;
+}
+
+/*שאלות טופס*/
+.questionsIn {
+  background-color: rgb(241, 150, 65);
+  border: none;
+  color: black;
+  border-bottom: 1vh solid;
+  /* קו תחתון-מסגרת*/
+  border-radius: 30%;
+  /*מעגל פינות*/
+}
+
+/*כפתורי שליחה וניקוי*/
+.submitReset {
+  background-color: rgb(241, 150, 65);
+  border: solid black;
+  color: black;
+  border-radius: 10%;
+  /*מעגל פינות*/
+  margin-right: 30%;
+  font-size: 80%;
+  padding: 5% 10%;
+}
+
+/*הרשמה  סיום*/
+/*כניסה  פתיחה*/
+
+.EntranceBody {
+  background-image: url("../image/logo/logo0.PNG");
+  background-size: 100% 130%;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+}
+
+.tow-flip-box {
+  display: inline-flex;
+}
+
+/* היפוך שם האתר*/
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 230px;
+}
+
+/*  נחוץ כדי למקם את הצד הקדמי והאחורי */
+.flip-box-inner {
+  position: relative;
+  margin-right: 150%;
+  width: 150%;
+  height: 200%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* בצע היפוך אופקי כשמעבירים את העכבר על שם האתר */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* מיקום הצד הקדמי והאחורי */
+.flip-box-front,
+.flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/*סגנון הצד הקדמי*/
+.flip-box-front {
+  font-size: xx-large;
+  background-color: rgb(238, 174, 115);
+  color: black;
+}
+
+/* סגנון הצד האחורי */
+.flip-box-back {
+  font-size: xx-large;
+  background-color: rgb(241, 150, 65);
+  color: black;
+  transform: rotateY(180deg);
+}
+
+/* למקם את הצד הקדמי והאחורי */
+.flip-box-inner1 {
+  position: relative;
+  margin-top: 78%;
+  margin-right: 150%;
+  width: 150%;
+  height: 200%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* בצע היפוך אופקי כאשר אתה מעביר את העכבר עליו */
+.flip-box:hover .flip-box-inner1 {
+  transform: rotateY(180deg);
+}
+
+/*כפתור לכניסה לאתר*/
+.Login {
+  background-color: rgb(241, 150, 65);
+  border: solid black;
+  color: black;
+  margin-right: 53%;
+  margin-top: 25%;
+  position: fixed;
+  border-radius: 10vh;
+  font-size: 300%;
+  padding: 3.5% 3%;
+  text-decoration: none;
+}
+
+/*כפתור להרשמה*/
+.to-register {
+  background-color: rgb(241, 150, 65);
+  border: solid black;
+  color: black;
+  margin-right: 55%;
+  margin-top: 10%;
+  position: fixed;
+  border-radius: 10vh;
+  font-size: 300%;
+  padding: 3.5% 3%;
+  text-decoration: none;
+}
+
+/*כניסה  סיום*/
+/*משחקי הקאץ',משפטי מוטיבציה, בדיחות,סרטונים פתיחה*/
+
+.sentDiv {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.sentImg {
+  width: 90%;
+  height: 90%;
+}
+
+.logo1 {
+  width: 10%;
+  height: 15vh;
+}
+
+/*משחקי הקאץ',משפטי מוטיבציה, בדיחות,סרטונים סיום*/
+
+/* קוד כניסה וסיסמא פתיחה*/
+.code {
+  display: inline-block;
+  margin-right: 35%;
+  width: 35%;
+  font-family: cursive;
+  font-size: xxx-large;
+  background-color: rgb(241, 150, 65);
+  border: none;
+  border-radius: 5vh;
+}
+
+.join {
+  font-size: xx-large;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: rgb(241, 150, 65);
+}
+
+/*קוד כניסה וסיסמא סיום*/
+
+/*אודות פתיחה*/
+
+.about {
+  font-size: xx-large;
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  text-align: center;
+  color: rgb(241, 150, 65);
+}
+
+/*אודות סיום*/
+
+/*אנימציה של כל התמונות פתיחה*/
+
+/* הגדלת תמונה בזמן שעומדים עליה*/
+img:hover {
+  transform: scale(1.2);
+  transition-duration: 2s;
+  /* הגדלה איטית */
+}
+
+/*אנימציה של כל התמונות סיום*/
+/* סרגל הניווט פתיחה */
+
+.navbar {
+  background-color: rgb(241, 150, 65);
+  /* צבע רקע כתום */
+  position: fixed;
+  /* לגרום לזה להידבק  */
+  top: 0;
+  /* להישאר למעלה  */
+  width: 100%;
+  /* רוחב מלא  */
+  transition: top 0.3s;
+  /* אפקט מעבר בעת החלקה מטה (ולמעלה)  */
+}
+
+/* סגנון הקישורים של סרגל הניווט */
+.navbar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding-right: -10%;
+  padding-left: 5%;
+  text-decoration: none;
+  font-size: 300%;
+}
+
+/* סרגל הניווט סיום*/
+/* הסתר את פס הגלילה פתיחה*/
+
+/*Chrome הסתר את פס הגלילה עבור  */
+.hide-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Edge הסתר את פס הגלילה עבור  */
+.hide-scroll {
+  -ms-overflow-style: none;
+}
+
+/* הסתר את פס הגלילה סיום*/

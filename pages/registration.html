@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="pr.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="shortcut icon" href="../image/logo/logo3.png" />
+    <link rel="stylesheet" type="text/css" href="design.css" />
+    <meta content="/image/logo/logo3.png" itemprop="image" />
+  </head>
+
+  <body dir="rtl" class="hide-scroll">
+    <img
+      style="margin-right: 550px"
+      class="logo"
+      src="../image/logo/logo3.PNG"
+      alt="logo"
+    />
+
+    <form action="Entering a password.html">
+      <fieldset class="signIn">
+        <legned class="signtitle">הרשמה לאתר:</legned><br /><br /><br />
+        שם פרטי :
+        <input
+          class="questionsIn"
+          type="text"
+          name="שם פרטי:"
+          required=" "
+        /><br /><br />
+        שם משפחה:
+        <input
+          class="questionsIn"
+          type="text"
+          name="שם משפחה:"
+          required=" "
+        /><br /><br />
+        תעודת זהות:
+        <input
+          class="questionsIn"
+          type="text"
+          name="תעודת זהות:"
+          required=" "
+          pattern="\d{9}"
+        /><br /><br />
+        גיל:
+        <input
+          class="questionsIn"
+          type="number"
+          name="גיל:"
+          min="1"
+          max="120"
+        /><br /><br />
+        כתובת מייל:
+        <input
+          class="questionsIn"
+          type="email"
+          name="EMAIL"
+          required=" "
+        /><br /><br />
+        בחר סיסמא:
+        <input class="questionsIn" type="password" name="code" /><br /><br />
+        <input class="submitReset" type="submit" /><br /><br />
+        <input class="submitReset" type="reset" />
+      </fieldset>
+    </form>
+  </body>
+</html>
